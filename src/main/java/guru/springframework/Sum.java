@@ -4,8 +4,8 @@ package guru.springframework;
  * Created by jt on 10/10/18.
  */
 public class Sum implements Expression {
-    Expression augend;
-    Expression addend;
+    final Expression augend;
+    final Expression addend;
 
     public Sum(Expression augend, Expression addend) {
         this.augend = augend;
